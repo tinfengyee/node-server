@@ -5,11 +5,14 @@
   },
   "plugins": ["jsdoc"],
   "rules": {
+    "@typescript-eslint/ban-ts-ignore": "off",
     "semi": [1, "never"],
     "no-unused-vars": [1, { "args": "none" }],
+    "array-callback-return": [0, { "allowImplicit": false }],
     "jsdoc/require-jsdoc": 0, // Recommended
     "jsdoc/require-param": 0, // Recommended
     "jsdoc/require-param-description": 0, // Recommended
-    "jsdoc/require-returns": 0 // Recommended
+    // "jsdoc/require-returns": 0, // Recommended
+    "jsdoc/require-returns-type": 0
   }
 }
