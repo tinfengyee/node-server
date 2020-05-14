@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-egg/typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["jsdoc"],
+  "rules": {
+    "semi": [1, "never"],
+    "no-unused-vars": [1, { "args": "none" }],
+    "jsdoc/require-jsdoc": 0, // Recommended
+    "jsdoc/require-param": 0, // Recommended
+    "jsdoc/require-param-description": 0, // Recommended
+    "jsdoc/require-returns": 0 // Recommended
+  }
+}
