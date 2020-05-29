@@ -2,6 +2,20 @@
 
 [Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
 
+
+
+## 技术选型
+
+Node版后台基础框架基于[Egg.js](https://eggjs.org/zh-cn/)(阿里出品)
+
+- 基础：**[egg.js](https://eggjs.org/zh-cn/)**
+- 数据：**[typeorm](https://typeorm.io/)**
+- 缓存：**[egg-redis](https://www.npmjs.com/package/egg-redis)**
+- 鉴权：**[egg-jwt](https://www.npmjs.com/package/egg-jwt)**
+- 网络：**[axios](https://www.npmjs.com/package/axios)**
+- 文件：**[egg-oss](https://www.npmjs.com/package/egg-oss)**
+- 数据库：**[mysql](https://www.mysql.com/)**
+
 ## QuickStart
 
 ### Development
